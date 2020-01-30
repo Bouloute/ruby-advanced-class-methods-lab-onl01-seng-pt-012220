@@ -26,6 +26,3 @@ class Song
   end
 end
 
-
-song = Song.new_by_name("Blank Space")
-binding.pry
