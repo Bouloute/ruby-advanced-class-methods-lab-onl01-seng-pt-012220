@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -23,3 +25,7 @@ class Song
     song
   end
 end
+
+
+song = Song.new_by_name("Blank Space")
+binding.pry 
