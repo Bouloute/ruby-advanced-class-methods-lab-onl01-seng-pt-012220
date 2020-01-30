@@ -39,9 +39,9 @@ class Song
   end
 
   def self.find_or_create_by_name(song_name)
-    song = find_by_name(song_name)
+    song = Song.find_by_name(song_name)
     if song == false
-      song = :create_by_name(song_name)
+      song = Song.create_by_name(song_name)
     end
     return song
   end
