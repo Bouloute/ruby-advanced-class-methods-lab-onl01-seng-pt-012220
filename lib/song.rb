@@ -15,4 +15,8 @@ class Song
     song.save
     song
   end
+
+  def self.new_by_name(song_name)
+    @name = name
+  end
 end
