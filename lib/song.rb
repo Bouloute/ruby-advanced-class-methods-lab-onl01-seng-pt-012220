@@ -25,6 +25,3 @@ class Song
     song
   end
 end
-
-song = Song.new_by_name("Hello")
-binding.pry
