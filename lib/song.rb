@@ -20,7 +20,7 @@ class Song
 
   def self.new_by_name(song_name)
     song = self.new
-    @name = name
+    @name = song_name
     song.save
     song
   end
@@ -28,4 +28,4 @@ end
 
 
 song = Song.new_by_name("Blank Space")
-binding.pry 
+binding.pry
